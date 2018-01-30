@@ -9,7 +9,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## USAGE
+
+    Just add following code to add image.
+        ImageManager.shared.openImagePicker(completion: { (image) in
+        self.image = image
+    })
+
+    It's simple? yeah.
+
+    Don't forget to add :
+
+    <key>NSCameraUsageDescription</key>
+    <string>"Your message"</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>"Your message"</string>
 
 ## Installation
 

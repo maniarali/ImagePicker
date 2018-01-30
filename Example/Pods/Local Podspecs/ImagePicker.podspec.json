@@ -1,0 +1,22 @@
+{
+  "name": "ImagePicker",
+  "version": "0.1.0",
+  "summary": "A short description of ImagePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MA Maniar/ImagePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MA Maniar": "maniarali@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MA Maniar/ImagePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImagePicker/Classes/**/*"
+}
