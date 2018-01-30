@@ -70,6 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0C6356202099B0001DA88F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C6357202099B9001DA88F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1E0C6357202099B9001DA88F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C635420209252001DA88F /* ImageManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		30472FB14A8DF375E09F7ECA17D3C31B /* Pods-ImagePicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +140,7 @@
 		9FAB465D85C52A9B2B25A1108E9E0A85 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				1E0C635420209252001DA88F /* ImageManager.swift */,
+				1E0C6356202099B0001DA88F /* Pod */,
 				59B81C0403DF98735CB4B3348CBCEEBA /* Support Files */,
 			);
 			name = ImagePicker;
