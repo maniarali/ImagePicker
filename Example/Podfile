@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ImagePicker_Tests' do
+  pod 'ImagePicker', :path => '../'
+  
+  
+end
